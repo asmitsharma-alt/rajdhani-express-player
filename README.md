@@ -41,8 +41,8 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. Clone the repository and navigate to the project directory:
    ```bash
-   git clone https://github.com/asmitsharma-alt/rajdhani-express-player-v2.git
-   cd rajdhani-express-player-v2
+   git clone https://github.com/asmitsharma-alt/rajdhani-express-player.git
+   cd rajdhani-express-player
    ```
 
 2. Install dependencies:
