@@ -238,7 +238,7 @@ export default function App() {
         loop
         muted
         playsInline
-        className="fixed inset-0 -z-10 h-full w-full object-cover scale-[1.05] origin-center"
+        className="fixed inset-0 -z-10 h-full w-full object-cover scale-[1.1] origin-center"
         src="/bg-video-loop.mp4"
       />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/40" />
