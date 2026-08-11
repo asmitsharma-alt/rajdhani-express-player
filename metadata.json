@@ -1,6 +1,0 @@
-{
-  "name": "Rajdhani Express",
-  "description": "90s Bollywood bangers that play at Indian barber shops.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
