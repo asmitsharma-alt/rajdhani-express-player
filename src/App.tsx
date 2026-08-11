@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { Play, Pause, SkipBack, SkipForward, Loader2, Volume2, Plus, Minus } from 'lucide-react';
+import { Play, Pause, SkipBack, SkipForward, Loader2, Volume2, Plus, Minus, Github } from 'lucide-react';
 
 interface Song {
   title: string;
@@ -237,6 +237,17 @@ export default function App() {
       <div className="fixed left-6 top-6 z-20 text-2xl font-light tabular-nums tracking-widest text-white/90 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
         {clock.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
       </div>
+
+      {/* GitHub Link - Bottom Right */}
+      <a 
+        href="https://github.com/asmitsharma-alt/rajdhani-express-player-v2" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="fixed right-6 bottom-6 z-20 text-white/50 hover:text-white hover:scale-110 transition-all duration-300 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]"
+        aria-label="GitHub Repository"
+      >
+        <Github size={24} />
+      </a>
 
       {/* Volume UI - Top Right */}
       <div className="fixed right-5 top-5 z-20 flex items-center gap-2 drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)] bg-black/20 px-3 py-2 rounded-full backdrop-blur-sm border border-white/10">
