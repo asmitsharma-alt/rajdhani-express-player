@@ -1,6 +1,12 @@
 <div align="center">
   <h1>Rajdhani Express Music Player</h1>
   <p>A beautifully crafted, immersive web-based music player with a unique audio-visual experience.</p>
+  <br />
+  <p>
+    <strong><a href="https://rajdhani.asmit.tech/" target="_blank">Live Demo</a></strong>
+    &nbsp;&middot;&nbsp;
+    <strong><a href="https://github.com/asmitsharma-alt/rajdhani-express-player-v2" target="_blank">Repository</a></strong>
+  </p>
 </div>
 
 ## Features
@@ -35,8 +41,8 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 1. Clone the repository and navigate to the project directory:
    ```bash
-   git clone <your-repo-url>
-   cd rajdhani-express
+   git clone https://github.com/asmitsharma-alt/rajdhani-express-player-v2.git
+   cd rajdhani-express-player-v2
    ```
 
 2. Install dependencies:
