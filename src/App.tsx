@@ -86,13 +86,19 @@ export default function App() {
         audioCtxRef.current = ctx;
         const source = ctx.createMediaElementSource(audioRef.current);
         
+        const dryNode = ctx.createGain();
+        dryNode.gain.value = 0.85; // 85% original clarity
+        
+        const wetNode = ctx.createGain();
+        wetNode.gain.value = 0.25; // 25% radio effect
+
         const bandpass = ctx.createBiquadFilter();
         bandpass.type = "bandpass";
-        bandpass.frequency.value = 800;
-        bandpass.Q.value = 1.2;
+        bandpass.frequency.value = 1200;
+        bandpass.Q.value = 0.8;
 
         const distortion = ctx.createWaveShaper();
-        const amount = 50;
+        const amount = 12;
         const n_samples = 44100;
         const curve = new Float32Array(n_samples);
         const deg = Math.PI / 180;
@@ -102,9 +108,15 @@ export default function App() {
         }
         distortion.curve = curve;
 
+        // Clean audio path
+        source.connect(dryNode);
+        dryNode.connect(ctx.destination);
+
+        // Radio effect path
         source.connect(bandpass);
         bandpass.connect(distortion);
-        distortion.connect(ctx.destination);
+        distortion.connect(wetNode);
+        wetNode.connect(ctx.destination);
       } catch (e) {
         console.error("Audio API error:", e);
       }
