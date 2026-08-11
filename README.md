@@ -5,7 +5,7 @@
   <p>
     <strong><a href="https://rajdhani.asmit.tech/" target="_blank">Live Demo</a></strong>
     &nbsp;&middot;&nbsp;
-    <strong><a href="https://github.com/asmitsharma-alt/rajdhani-express-player-v2" target="_blank">Repository</a></strong>
+    <strong><a href="https://github.com/asmitsharma-alt/rajdhani-express-player" target="_blank">Repository</a></strong>
   </p>
 </div>
 
