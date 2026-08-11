@@ -1,9 +1,9 @@
 <div align="center">
-  <h1>🚂 Rajdhani Express Music Player</h1>
+  <h1>Rajdhani Express Music Player</h1>
   <p>A beautifully crafted, immersive web-based music player with a unique audio-visual experience.</p>
 </div>
 
-## ✨ Features
+## Features
 
 - **Immersive Visuals**: Features a full-screen background video loop with an ambient gradient overlay.
 - **Unique Audio Experience**: 
@@ -17,7 +17,7 @@
 - **Minimalist Clock**: A sleek, real-time tabular clock overlay.
 - **Restricted Interactions**: Non-scrollable layout with text selection and right-click disabled for an app-like feel.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React.js**: Frontend UI library.
 - **Vite**: Next-generation frontend tooling.
@@ -25,7 +25,7 @@
 - **Lucide React**: Beautiful and consistent iconography.
 - **Web Audio API**: For real-time audio processing and effects.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -51,7 +51,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 4. Open your browser and visit `http://localhost:5173` to experience the player!
 
-## 📦 Build for Production
+## Build for Production
 
 To create a production-ready build, run:
 ```bash
@@ -59,6 +59,6 @@ npm run build
 ```
 This will generate a `dist` folder containing the optimized static assets.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
